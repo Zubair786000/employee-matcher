@@ -1,7 +1,6 @@
-your_project/
 import streamlit as st
+
+st.set_page_config(page_title="Employee Matcher App", layout="wide")
+
 st.title("Employee Matcher App")
 st.write("Welcome to the app!")
-headless = true
-address = "0.0.0.0"
-port = 5000
